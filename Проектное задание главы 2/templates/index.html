@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+
+{% block container %}
+
+  <main class="container mt-3">
+    <!-- HERO -->
+    <section class="jumbotron text-center mt-4" style="background: url('https://place-hold.it/1600x300'); background-position: center center">
+      <h1 class="display-4">Всякие туры</h1>
+      <p class="lead">Для тех, кого отвлекают дома</p>
+      <p class="mt-5 w-50 mx-auto">Лучшие направления,где никто не будет вам мешать сидеть на берегу и изучать программирование, дизайн, разработку игр и управление продуктами</p>
+    </section>
+    <!-- CARDS -->
+    <div class="row mt-5">
+      <div class="col-4">
+        <div class="card mb-4">
+          <div class="embed-responsive embed-responsive-16by9">
+             <img class="card-img-top embed-responsive-item" src="https://place-hold.it/300x200" alt="" />
+          </div>          
+          <div class="card-body">
+            <h2 class="h5 card-title">{{  "Marina Lake Hotel & Spa"  }}</h2>
+            <p class="card-text">{{  "Отель выглядит уютно. Он был построен из красного соснового дерева и украшен синими камнями.  Высокие округлые окна добавляют общий стиль дома и были добавлены в дом в довольно симметричном образце."|truncate(190) }}</p>
+            <a href="#" class="btn btn-sm btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card mb-4">
+          <div class="embed-responsive embed-responsive-16by9">
+             <img class="card-img-top embed-responsive-item" src="https://place-hold.it/300x200" alt="" />
+          </div>          
+          <div class="card-body">
+            <h2 class="h5 card-title">{{  "Baroque Hotel"  }}</h2>
+            <p class="card-text">{{  "Здание отеля имеет форму короткой буквы U. Два расширения связаны стеклянными нависающими панелями. Второй этаж такого же размера, как и первый, который был построен точно над полом под ним. Этот этаж имеет совершенно другой стиль, чем этаж ниже."|truncate(190) }}</p>
+            <a href="#" class="btn btn-sm btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card mb-4">
+          <div class="embed-responsive embed-responsive-16by9">
+             <img class="card-img-top embed-responsive-item" src="https://place-hold.it/300x200" alt="" />
+          </div>          
+          <div class="card-body">
+            <h2 class="h5 card-title">{{  "Voyager Resort"  }}</h2>
+            <p class="card-text">{{  "Снаружи отель выглядит красиво и традиционно. Он был построен с белыми камнями и имеет еловые деревянные украшения. Высокие, большие окна добавляют к общему стилю дома и были добавлены в дом в основном симметричным способом."|truncate(190) }}</p>
+            <a href="#" class="btn btn-sm btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card mb-4">
+          <div class="embed-responsive embed-responsive-16by9">
+             <img class="card-img-top embed-responsive-item" src="https://place-hold.it/300x200" alt="" />
+          </div>          
+          <div class="card-body">
+            <h2 class="h5 card-title">{{  "Orbit Hotel"  }}</h2>
+            <p class="card-text">{{  "Каждый домик оборудован средней кухней и одной небольшой ванной комнатой, в нем также есть уютная гостиная, две спальни, скромная столовая и большой подвал.  Небольшие треугольные окна добавляют к общему стилю дома и были добавлены в дом в основном симметричным способом."|truncate(190) }}</p>
+            <a href="#" class="btn btn-sm btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card mb-4">
+          <div class="embed-responsive embed-responsive-16by9">
+             <img class="card-img-top embed-responsive-item" src="https://place-hold.it/300x200" alt="" />
+          </div>          
+          <div class="card-body">
+            <h2 class="h5 card-title">{{  "Atlantis Cabin Hotel"  }}</h2>
+            <p class="card-text">{{  "Этот дом среднего размера имеет футуристический вид и находится в среднем состоянии. Интерьер выполнен в насыщенных тонах. Двор небольшой и выглядит очень формально. Кроме того, странные огни были замечены движущимися в доме ночью."|truncate(190) }}</p>
+            <a href="#" class="btn btn-sm btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card mb-4">
+          <div class="embed-responsive embed-responsive-16by9">
+             <img class="card-img-top embed-responsive-item" src="https://place-hold.it/300x200" alt="" />
+          </div>          
+          <div class="card-body">
+            <h2 class="h5 card-title">{{  "Light Renaissance Hotel"  }}</h2>
+            <p class="card-text">{{  "Этот крошечный дом выглядит довольно современно и находится в ужасном состоянии. Интерьер выполнен в цветах, которые напоминают вам о тропическом лесу. Двор небольшой и заросший дикими растениями. Кроме того, это было однажды показано в телесериале, демонстрирующем необычно украшенные дома."|truncate(190) }}</p>
+            <a href="#" class="btn btn-sm btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+{% endblock %}
